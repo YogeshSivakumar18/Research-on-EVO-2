@@ -1,35 +1,40 @@
-# EVO 2: Ethical, Risk, and Governance Assessment of an AI Genomics Model
+# EVO 2: A Critical Analysis of AI-Driven Genomics Through its Data Pipeline
 
 ## Overview
 
-This repository contains a critical academic assessment of **EVO 2**, an advanced AI model developed for genomic analysis by the Arc Institute, NVIDIA, Stanford University, UC Berkeley, and UCSF. Rather than focusing on implementation or training of the model, this research evaluates EVO 2 through the lenses of **risk**, **ethics**, and **governance** with particular attention to privacy, informed consent, algorithmic bias, and international policy implications.
+This repository presents an academic research project that offers a **comprehensive assessment of EVO 2**, a state-of-the-art AI model developed for genomic analysis. The study investigates EVO 2 by thoroughly examining its **data pipeline architecture**, revealing how its structure, training processes, and data handling strategies give rise to broader concerns about **risk, ethics, and governance** in AI-driven genomics.
 
-EVO 2 is notable for processing genomic sequences up to 1 million base pairs and predicting gene function and mutational effects with high accuracy. Its deployment at scale raises important questions about responsible AI use in sensitive biomedical contexts.
+EVO 2 was developed in collaboration between the Arc Institute, NVIDIA, Stanford, UC Berkeley, and UCSF. Capable of processing genomic sequences up to 1 million base pairs, EVO 2 utilizes a novel architecture (StripedHyena 2) and was trained on a massive OpenGenome2 dataset containing over 9.3 trillion nucleotides.
 
-## Focus Areas
+## Core Focus
 
-### 1. **Risk Assessment**
-- Data privacy and protection of individual genetic information
-- Risks of unintended genetic modifications in clinical or experimental applications
-- Potential for misuse in unsupervised or commercial settings
+This project does **not** aim to build or extend EVO 2, but instead to critically assess the **implications of its data pipeline**, including:
 
-### 2. **Ethical Considerations**
-- The necessity of informed consent and autonomy in genomic data use
-- Exclusion of human-infecting pathogen sequences from training
-- Equity and bias mitigation in model predictions
+### Pipeline-Based Risk Assessment
+- Data quality controls and privacy protections
+- Risks of genetic misuse or unintended consequences in genome editing
+- Bias inheritance from organismal diversity in the training data
 
-### 3. **Governance and Policy**
-- Proposals for ethical frameworks and global regulation
-- Governance models guided by public values and transparency
-- Reference to GDPR-aligned and EU-derived legislative benchmarks
+### Ethical Evaluation
+- Informed consent in genomic data collection and use
+- Transparency in excluded pathogen data and its impact on research access
+- Fair use and equitable treatment in predictions and applications
 
-## Deliverables
+### Governance and Policy Implications
+- International regulation needs and ethical frameworks
+- Public accountability and legal alignment (e.g., GDPR, EU Bioethics)
+- Real-time oversight of AI systems in biomedical research
 
-- **Research Report**: Comprehensive analysis document with citations  
-- **Reference List**: Peer-reviewed articles and technical documentation  
-- **Figure**: Visual diagram of EVO 2's data pipeline and training stages
+## Structure of This Repository
+
+- `EVO2_Assessment_Report.docx` – Full research document  
+- `figures/` – Includes a visual of the EVO 2 data pipeline
+- README.md   
 
 ## Disclaimer
 
-This project is intended for academic research and educational purposes only. It does not involve the training, fine-tuning, or deployment of the EVO 2 model or any genomic data handling. Ethical principles and proper citation practices must be followed when referencing or applying this analysis.
+This project is for academic, educational, and policy discourse purposes. No proprietary data or private genomic information is used or accessed. All conclusions are based on publicly available documentation and open-source model behavior.
 
+## License
+
+Open-access under CC BY-NC 4.0. Refer to the LICENSE file for reuse conditions.
