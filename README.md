@@ -27,8 +27,8 @@ This project does **not** aim to build or extend EVO 2, but instead to criticall
 
 ## Structure of This Repository
 
-- `EVO2_Assessment_Report.docx` – Full research document  
-- `figures/` – Includes a visual of the EVO 2 data pipeline
+- EVO2_Assessment_Report.docx – Full research document including references
+- figures – Includes a visual of the EVO 2 data pipeline
 - README.md   
 
 ## Disclaimer
